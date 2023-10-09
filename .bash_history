@@ -42,3 +42,45 @@ curl -fsSL get.docker.com | /bin/bash
 useradd -aG docker jenkins
 usermod -aG docker jenkins
 service jenkins restart
+git init
+git branch
+git config --global user.name "santhosh9533"
+git config --global user.email "santhoshreddy9533@gmail.com"
+git status
+git add .
+git commit -m "first commit"
+git status
+git push -u origin master
+git remote add https://github.com/santhosh9533/CICD_PROJECT
+git remote add -f https://github.com/santhosh9533/CICD_PROJECT
+git remote add https://github.com/santhosh9533/CICD_PROJECT.git
+git remote add origin https://github.com/santhosh9533/CICD_PROJECT.git
+git push -u origin master
+git clone https://github.com/bc0071/mithun_spring-boot-mongo-docker
+ls
+git status
+git add .
+git status
+git commit -m "clone the java code"
+git push -u origin master
+git clone https://github.com/bc0071/mithun_spring-boot-mongo-docker
+ls
+ll
+cd mithun_spring-boot-mongo-docker/
+ls
+cd
+git pull https://github.com/bc0071/mithun_spring-boot-mongo-docker
+ls
+git merge https://github.com/bc0071/mithun_spring-boot-mongo-docker
+cd mithun_spring-boot-mongo-docker/
+ls
+git status
+cd
+rm -rf mithun_spring-boot-mongo-docker/
+ls
+git pull https://github.com/bc0071/mithun_spring-boot-mongo-docker
+git clone https://github.com/bc0071/mithun_spring-boot-mongo-docker
+ls
+cd mithun_spring-boot-mongo-docker/
+ls
+git status
